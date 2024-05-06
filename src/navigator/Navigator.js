@@ -1,6 +1,6 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Home } from "../views/Home";
-import { Prueba } from "../views/Prueba";
+import { User } from "../views/User";
 import { Setting } from "../views/Setting";
 import { AntDesign } from "@expo/vector-icons";
 import { Feather } from "@expo/vector-icons";
@@ -34,8 +34,8 @@ export default function MyTabs() {
         }}
       />
       <Tab.Screen
-        name="Prueba"
-        component={Prueba}
+        name="User"
+        component={User}
         options={{
           tabBarLabel: "User",
           tabBarIcon: ({ color }) => (
